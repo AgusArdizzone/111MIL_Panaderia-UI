@@ -13,7 +13,7 @@ import javafx.scene.layout.VBox;
  *
  * @author utku33
  */
-public interface contratoVista {
+public interface ContratoVistaCobranza {
     public Scene getScene();
     public HBox addHBox();
     public VBox addVBox();

@@ -17,7 +17,7 @@ import javafx.scene.layout.VBox;
  *
  * @author utku33
  */
-public class VistaCobranza implements contratoVista {
+public class VistaCobranza implements ContratoVistaCobranza {
      private Scene scene;
    // private GridPane root;
     private BorderPane root;
