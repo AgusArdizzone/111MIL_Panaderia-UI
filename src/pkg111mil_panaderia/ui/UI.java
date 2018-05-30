@@ -38,9 +38,9 @@ public class UI extends Application implements ContratoControladorVistas{
     }
     
     @Override
-    public void launchVistaCobranza(Factura factura) {
+    public void launchVistaCobranza() {
         if(this.vistaConbranza == null){
-            this.vistaConbranza = new VistaCobranza(factura);
+            this.vistaConbranza = new VistaCobranza();
         }
         this.mainStage.setScene(this.vistaConbranza.getScene());
     }

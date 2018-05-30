@@ -5,7 +5,6 @@
  */
 package pkg111mil_panaderia.cobrar;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -21,7 +20,7 @@ public class ProveedorCobranza implements ContratoProveedor {
     private List <Dinero> efectivo = new ArrayList<>();
     private Caja caja = new Caja(efectivo);
     
-    private List<Dinero> dineroAutorizado = new Arrays.asList(
+    private final List<Dinero> dineroAutorizado = Arrays.asList(
     new Dinero(0.50f, TipoDinero.MONEDA),new Dinero(1f, TipoDinero.MONEDA),
     new Dinero(2f, TipoDinero.MONEDA),new Dinero(5f, TipoDinero.BILLETE),
     new Dinero(10f, TipoDinero.BILLETE),new Dinero(20f, TipoDinero.BILLETE),
